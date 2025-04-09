@@ -25,13 +25,13 @@ meta = data.frame(
     Maintainer = 'Jiahua Tan jiahuatan@chem.ubc.ca',
     RDataClass = c('data.frame', 'data.frame', 'data.frame', 'ranger', 'ranger'),
     DispatchClass = 'Rds',
-    Location_Prefix = 'https://zenodo.org/records/15128039/files/',
+    Location_Prefix = 'https://zenodo.org/',
     RDataPath = c(
-        'benchmark.set.1.rds?download=1',
-        'benchmark.set.2.rds?download=1',
-        'benchmark.set.3.rds?download=1',
-        'regr.rds?download=1',
-        'regr.no.CV.rds?download=1'
+        'records/15128039/files/benchmark.set.1.rds?download=1',
+        'records/15128039/files/benchmark.set.2.rds?download=1',
+        'records/15128039/files/benchmark.set.3.rds?download=1',
+        'records/15128039/files/regr.rds?download=1',
+        'records/15128039/files/regr.no.CV.rds?download=1'
     ),
     Tags = ''
 )
