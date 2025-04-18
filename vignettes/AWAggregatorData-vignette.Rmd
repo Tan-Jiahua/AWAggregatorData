@@ -61,16 +61,24 @@ Data are stored via `ExperimentHub` package. The information of available datase
 ```{r}
 library(ExperimentHub)
 eh = ExperimentHub()
-query(eh, 'AWAggregatorData')
+query(eh, 'AWAggregatorData') # Require Bioconductor version 3.21 or later
 ```
 
 
-The datasets themselves can be downloaded by:
+The datasets and pre-trained models can be downloaded by:
 
 
 ```{r}
-# regr = eh[['XXX']]
-# regr
+# Benchmark Set 1
+df = eh[['EH9637']]
+# Benchmark Set 2
+df = eh[['EH9638']]
+# Benchmark Set 3
+df = eh[['EH9639']]
+# Pre-trained model incorporating the average coefficient of variation (CV) as a feature
+regr = eh[['EH9640']]
+# Pre-trained model excluding CV as a feature
+regr = eh[['EH9641']]
 ```
 
 ```{r}

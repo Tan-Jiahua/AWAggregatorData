@@ -13,6 +13,6 @@
         library(ExperimentHub)
         eh = ExperimentHub()
         myfiles = query(eh, 'AWAggregatorData')
-        # myfiles[['XXX']]
+        myfiles[['EH9637']]
     }
 }

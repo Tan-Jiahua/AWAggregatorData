@@ -27,11 +27,11 @@ meta = data.frame(
     DispatchClass = 'Rds',
     Location_Prefix = 'https://zenodo.org/',
     RDataPath = c(
-        'records/15128039/files/benchmark.set.1.rds?download=1',
-        'records/15128039/files/benchmark.set.2.rds?download=1',
-        'records/15128039/files/benchmark.set.3.rds?download=1',
-        'records/15128039/files/regr.rds?download=1',
-        'records/15128039/files/regr.no.CV.rds?download=1'
+        'records/15128039/files/benchmark.set.1.rds',
+        'records/15128039/files/benchmark.set.2.rds',
+        'records/15128039/files/benchmark.set.3.rds',
+        'records/15128039/files/regr.rds',
+        'records/15128039/files/regr.no.CV.rds'
     ),
     Tags = ''
 )
