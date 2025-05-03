@@ -1,7 +1,7 @@
 Package: AWAggregatorData
 Type: Package
 Title: Attribute-Weighted Aggregation Data
-Version: 0.99.2
+Version: 0.99.3
 Authors@R:
     c(
         person(given = "Jiahua",
@@ -36,7 +36,7 @@ Suggests:
     BiocStyle,
     knitr,
     rmarkdown
-Imports:
+Depends:
     ExperimentHub
 biocViews: ExperimentData, PackageTypeData, ExperimentHub, MassSpectrometryData, Proteome
 VignetteBuilder: knitr
